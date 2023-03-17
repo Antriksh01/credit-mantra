@@ -1,0 +1,93 @@
+.navbar-default .navbar-nav .nav-item .nav-link {
+  font-size: 0.875rem;
+  color: #e1efff;
+  font-weight: 500;
+  padding: 0.5rem 0.8rem;
+}
+.navbar .dropdown .dropdown-toggle:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f107";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+  color: #adb5bd;
+  margin-left: 0.375rem;
+  border: none;
+  /* background-image: url('assets/images/icon/icon.png'); */
+  font-family: FontAwesome;
+  background-repeat: no-repeat;
+  background-size: 0.625rem 0.625rem;
+  float: right;
+  font-weight: 900;
+}
+.logo-size {
+  width: 127px;
+}
+.navbar-brand img {
+  width: 307px;
+  height: 6rem;
+}
+.otp-input-fields {
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 0px 8px 0px #02025044;
+  max-width: 400px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px;
+}
+
+.otp-input-fields input {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #2f8f1f;
+  text-align: center;
+  outline: none;
+  font-size: 16px;
+}
+
+.otp-input-fields input:focus {
+  border-width: 2px;
+  border-color: darken(#2f8f1f, 5%);
+  font-size: 20px;
+}
+.result {
+  max-width: 400px;
+  margin: auto;
+  padding: 24px;
+  text-align: center;
+}
+.result p {
+  font-size: 24px;
+  font-family: "Antonio", sans-serif;
+  opacity: 1;
+  transition: color 0.5s ease;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.input-group-addon {
+  display: block;
+  width: 5%;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  /* color: #ffffff; */
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px;
+  position: absolute;
+}
